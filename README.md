@@ -55,9 +55,7 @@ docker run -d -p 3000:3000 assignment4-docker-image
 ## Reflection Question
 **Answer the following question in the space below**: How does containerization with Docker differ from using virtual machines, and why might a development team choose Docker containers over VMs for deploying applications like the one you just containerized?
 
-Docker containers and virtual machines (VMs) are both used to run applications, but they work in different ways. A virtual machine has its own operating system, while Docker containers share parts of the operating system with the computer they run on. This means that Docker usually requires fewer resources and is faster to start than a virtual machine.
-
-A development team may choose Docker because it makes it easier to run the same application on different computers. It can also reduce problems that might otherwise arise when developers use different computers or operating systems. An example is this task, where I was able to run an application using Node.js through Docker, without having to install Node.js directly on my computer. It shows how Docker can make it easier to both work with and launch applications in different environments.
+Docker containers and virtual machines (VMs) are both used to run applications, but VMs have their own operating systems while Docker containers share the operating system's kernel with the computer they run on. This means Docker usually needs fewer resources and starts faster, which makes it easier for development teams to run the same application on different computers without as many problems. For example, in this assignment, I was able to run a Node.js application using Docker without installing Node.js directly on my computer.
 
 
 
